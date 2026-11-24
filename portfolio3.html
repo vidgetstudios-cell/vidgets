@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDGET — Video biasa, jadi luar biasa.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0b0b0c;
+            color: #f4f4f5;
+        }
+        .font-editorial {
+            font-family: 'Instrument Serif', serif;
+        }
+        .aspect-9-16 {
+            aspect-ratio: 9 / 16;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-white selection:text-black">
+
+    <!-- Navbar Minimalis -->
+    <nav class="sticky top-0 z-50 bg-[#0b0b0c]/85 backdrop-blur-md border-b border-zinc-800/70">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-sm font-bold tracking-[0.2em] uppercase">
+                VIDGET <span class="text-zinc-500 font-normal">/ FERNANDI</span>
+            </a>
+            <div class="hidden sm:flex items-center gap-6 text-xs text-zinc-400">
+                <a href="#projects" class="hover:text-white transition">Projects</a>
+                <a href="#workflow" class="hover:text-white transition">Alur Kerja</a>
+                <a href="#about" class="hover:text-white transition">About Me</a>
+            </div>
+            <a href="#contact" class="text-xs font-medium px-4 py-2 rounded-full border border-zinc-700 hover:bg-white hover:text-black transition">
+                Hubungi Saya
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="max-w-5xl mx-auto px-6 pt-16 pb-16 border-b border-zinc-800/70">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs text-zinc-300 mb-6">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Available for Short-Form Projects
+        </div>
+
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-8">
+            <div>
+                <h1 class="font-editorial text-5xl sm:text-7xl md:text-8xl leading-[0.95] tracking-tight">
+                    Video biasa, <br>
+                    <span class="italic text-zinc-400">jadi luar biasa.</span>
+                </h1>
+            </div>
+            <div class="flex gap-3 shrink-0">
+                <a href="#projects" class="bg-white text-black font-semibold text-xs sm:text-sm px-6 py-3.5 rounded-full hover:bg-zinc-200 transition">
+                    Lihat Karya
+                </a>
+                <a href="#contact" class="border border-zinc-700 text-white font-medium text-xs sm:text-sm px-6 py-3.5 rounded-full hover:border-zinc-400 transition">
+                    Konsultasi Gratis
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bagian 1: Contoh Projects (Embed YouTube Shorts 9:16) -->
+    <section id="projects" class="max-w-5xl mx-auto px-6 py-20 border-b border-zinc-800/70">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
+            <div>
+                <span class="text-xs uppercase tracking-widest text-zinc-500">Selected Works • 9:16 Vertical</span>
+                <h2 class="font-editorial text-4xl sm:text-5xl mt-1">Reels Portfolio</h2>
+            </div>
+        </div>
+
+        <!-- Grid 3 Kolom Video YouTube Shorts -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            
+            <!-- Video 01 -->
+            <div class="group">
+                <div class="aspect-9-16 rounded-xl bg-zinc-900 border border-zinc-800 overflow-hidden relative">
+                    <!-- Ganti GANTI_ID_YOUTUBE_1 dengan ID video YouTube Shorts kamu -->
+                    <iframe 
+                        class="w-full h-full" 
+                        src="https://www.youtube.com/embed/BZcp9fQ_OSY?rel=0&modestbranding=1" 
+                        title="Podcast Story Extraction" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="mt-4 flex justify-between items-start">
+                    <div>
+                        <span class="text-[11px] uppercase tracking-wider text-zinc-500">Social Media Reels</span>
+                        <h3 class="font-semibold text-base mt-0.5">Podcast Story Extraction</h3>
+                    </div>
+                    <span class="text-xs text-zinc-500">01</span>
+                </div>
+            </div>
+
+            <!-- Video 02 -->
+            <div class="group">
+                <div class="aspect-9-16 rounded-xl bg-zinc-900 border border-zinc-800 overflow-hidden relative">
+                    <!-- Ganti GANTI_ID_YOUTUBE_2 dengan ID video YouTube Shorts kamu -->
+                    <iframe 
+                        class="w-full h-full" 
+                        src="https://www.youtube.com/embed/aljUtUMynB0?rel=0&modestbranding=1" 
+                        title="Dynamic Short-Form Edit" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="mt-4 flex justify-between items-start">
+                    <div>
+                        <span class="text-[11px] uppercase tracking-wider text-zinc-500">Social Media Reels</span>
+                        <h3 class="font-semibold text-base mt-0.5">Dynamic Short-Form Edit</h3>
+                    </div>
+                    <span class="text-xs text-zinc-500">02</span>
+                </div>
+            </div>
+
+            <!-- Video 03 -->
+            <div class="group">
+                <div class="aspect-9-16 rounded-xl bg-zinc-900 border border-zinc-800 overflow-hidden relative">
+                    <!-- Ganti GANTI_ID_YOUTUBE_3 dengan ID video YouTube Shorts kamu -->
+                    <iframe 
+                        class="w-full h-full" 
+                        src="https://www.youtube.com/embed/7uPfWG9QykE?rel=0&modestbranding=1" 
+                        title="Visual Storytelling Reels" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="mt-4 flex justify-between items-start">
+                    <div>
+                        <span class="text-[11px] uppercase tracking-wider text-zinc-500">Social Media Reels</span>
+                        <h3 class="font-semibold text-base mt-0.5">Visual Storytelling Reels</h3>
+                    </div>
+                    <span class="text-xs text-zinc-500">03</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Bagian 2: Alur Kerja -->
+    <section id="workflow" class="max-w-5xl mx-auto px-6 py-20 border-b border-zinc-800/70">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+            <div class="md:col-span-4">
+                <span class="text-xs uppercase tracking-widest text-zinc-500">Workflow</span>
+                <h2 class="font-editorial text-4xl sm:text-5xl mt-1">
+                    Alur <br><span class="italic text-zinc-400">kerja.</span>
+                </h2>
+            </div>
+
+            <div class="md:col-span-8 divide-y divide-zinc-800 border-t border-b border-zinc-800">
+                <div class="py-4 flex items-start gap-5">
+                    <span class="text-xs text-zinc-500 pt-1">01</span>
+                    <div>
+                        <h3 class="font-semibold text-sm sm:text-base">Briefing & Referensi</h3>
+                        <p class="text-zinc-400 text-xs sm:text-sm mt-1">Membahas konsep video dan/atau menyertakan referensi yang diinginkan (jika ada).</p>
+                    </div>
+                </div>
+
+                <div class="py-4 flex items-start gap-5">
+                    <span class="text-xs text-zinc-500 pt-1">02</span>
+                    <div>
+                        <h3 class="font-semibold text-sm sm:text-base">Pengiriman Materi</h3>
+                        <p class="text-zinc-400 text-xs sm:text-sm mt-1">Kirim footage / file video, asset, dan bahan pendukung seperti penambahan teks (jika ada).</p>
+                    </div>
+                </div>
+
+                <div class="py-4 flex items-start gap-5">
+                    <span class="text-xs text-zinc-500 pt-1">03</span>
+                    <div>
+                        <h3 class="font-semibold text-sm sm:text-base">Proses Produksi</h3>
+                        <p class="text-zinc-400 text-xs sm:text-sm mt-1">Setelah pembayaran / kesepakatan diproses, video segera dikerjakan.</p>
+                    </div>
+                </div>
+
+                <div class="py-4 flex items-start gap-5">
+                    <span class="text-xs text-zinc-500 pt-1">04</span>
+                    <div>
+                        <h3 class="font-semibold text-sm sm:text-base">Preview Hasil Video</h3>
+                        <p class="text-zinc-400 text-xs sm:text-sm mt-1">Preview hasil video dikirimkan terlebih dahulu (kualitas masih rendah) untuk peninjauan.</p>
+                    </div>
+                </div>
+
+                <div class="py-4 flex items-start gap-5">
+                    <span class="text-xs text-zinc-500 pt-1">05</span>
+                    <div>
+                        <h3 class="font-semibold text-sm sm:text-base">Feedback atau Revisi</h3>
+                        <p class="text-zinc-400 text-xs sm:text-sm mt-1">Penyesuaian berdasarkan feedback atau revisi dari Anda hingga sesuai ekspektasi.</p>
+                    </div>
+                </div>
+
+                <div class="py-4 flex items-start gap-5">
+                    <span class="text-xs text-zinc-500 pt-1">06</span>
+                    <div>
+                        <h3 class="font-semibold text-sm sm:text-base">Final Delivery FULL HD</h3>
+                        <p class="text-zinc-400 text-xs sm:text-sm mt-1">Setelah sesuai dengan yang diharapkan, video akan dikirim dengan kualitas FULL HD siap upload.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian 3: About Me -->
+    <section id="about" class="max-w-5xl mx-auto px-6 py-20 border-b border-zinc-800/70">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+            
+            <!-- Kolom Kiri: Label About Me, Foto Profil, & Tools -->
+            <div class="md:col-span-5">
+                <span class="text-xs uppercase tracking-widest text-zinc-500">About Me</span>
+
+                <!-- Frame Foto Profil -->
+                <div class="mt-4 w-48 sm:w-56 aspect-[4/5] rounded-xl overflow-hidden bg-zinc-900 border border-zinc-800">
+                    <img 
+                        src="foto-fernandi.jpg" 
+                        alt="Fernandi - Short-Form Video Editor" 
+                        class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500"
+                    >
+                </div>
+
+                <p class="text-xs uppercase tracking-widest text-zinc-500 mt-8 mb-3">Software & Tools</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-xs px-3 py-1.5 rounded-md bg-zinc-900 border border-zinc-800 text-zinc-300">CapCut Pro</span>
+                    <span class="text-xs px-3 py-1.5 rounded-md bg-zinc-900 border border-zinc-800 text-zinc-300">DaVinci Resolve</span>
+                    
+                    <span class="text-xs px-3 py-1.5 rounded-md bg-zinc-900 border border-zinc-800 text-zinc-300">AI Workflow</span>
+                </div>
+            </div>
+
+            <!-- Kolom Kanan: Judul "Halo, saya Fernandi." di atas deskripsi panjang -->
+            <div class="md:col-span-7 space-y-5 text-zinc-300 text-sm sm:text-base leading-relaxed md:pt-6">
+                <h2 class="font-editorial text-4xl sm:text-5xl text-white leading-tight mb-4">
+                    Halo, saya <span class="italic text-zinc-400">Fernandi.</span>
+                </h2>
+                <p>
+                    Saya menjelajahi dunia audio visual sejak <strong>8 tahun lalu</strong>. Berangkat dari fotografi, videografi, hingga motion graphics, saya memiliki passion untuk merancang konten visual yang menarik dan unik.
+                </p>
+                <p>
+                    Bagi saya, rancangan audio visual yang unik bukan sekadar pemanis layar, melainkan cara untuk memberi kesan tersendiri bagi penikmat video. Kini, saya memfokuskan pengalaman tersebut untuk membantu kreator dan brand membuat konten <strong>Instagram Reels, TikTok, dan YouTube Shorts</strong> agar setiap video biasa bisa jadi luar biasa dan menarik bagi penonton.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contact" class="max-w-5xl mx-auto px-6 py-24">
+        <div class="mb-12">
+            <span class="text-xs uppercase tracking-widest text-zinc-500">Mulai Kolaborasi</span>
+            <h2 class="font-editorial text-5xl sm:text-7xl mt-2 leading-none">
+                Let's <span class="italic text-zinc-400">create & edit</span> <br>
+                your next viral Reels.
+            </h2>
+        </div>
+
+        <div class="flex flex-wrap gap-4 mb-20">
+            <!-- Ganti nomor WA di bawah ini -->
+            <a href="https://wa.me/6285793426913?text=Halo%20Fernandi,%20saya%20tertarik%20diskusi%20untuk%20editing%20video%20Reels" target="_blank" class="bg-white text-black font-semibold text-xs sm:text-sm px-7 py-3.5 rounded-full hover:bg-zinc-200 transition">
+                Chat via WhatsApp
+            </a>
+        </div>
+
+        <div class="pt-8 border-t border-zinc-800/80 flex flex-col sm:flex-row justify-between items-center text-xs text-zinc-500 gap-4">
+            <p>© 2026 VIDGET — Crafted with intention by Fernandi.</p>
+            <p>Based in Indonesia • Available for Inquiries</p>
+        </div>
+    </footer>
+
+</body>
+</html>
